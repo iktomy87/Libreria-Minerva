@@ -12,7 +12,9 @@ const Footer = () => {
           <div className="footer-info">
             <FaMapMarkerAlt className="footer-icon" />
             <div>
-              <p>Ricardo Enrique Bochin 751, Avellaneda, Provincia de Buenos Aires</p>
+              <p className='direccion'>Ricardo Enrique Bochin 751, 
+                Avellaneda, Provincia de Buenos Aires
+              </p>
             </div>
           </div>
         </div>

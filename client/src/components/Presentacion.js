@@ -1,6 +1,6 @@
 import React from 'react';
 import '../pages/styles/presentacion.css';
-import { FaFacebook, FaInstagram, FaPinterest, FaSmile } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaPinterest, FaTwitter } from 'react-icons/fa';
 import logo from '../assets/img/Screenshot_261.png';
 
 function Presentacion() {
@@ -19,10 +19,10 @@ function Presentacion() {
           </p>
           
           <div className="about-social">
-            <a href="#"><FaFacebook /></a>
-            <a href="#"><FaPinterest /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaSmile /></a>
+            <a href="#" className='social-icon'><FaFacebook /></a>
+            <a href="#" className='social-icon'><FaPinterest /></a>
+            <a href="#" className='social-icon'><FaInstagram /></a>
+            <a href="#" className='social-icon'><FaTwitter /></a>
 
           </div>
         </div>
