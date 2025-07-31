@@ -36,7 +36,6 @@ class Producto(models.Model):
         return Producto.objects.all() 
   
     @staticmethod
-    @staticmethod
     def get_all_products_by_categoryid(category_id): 
         try:
             return Producto.objects.filter(categoria=category_id) 

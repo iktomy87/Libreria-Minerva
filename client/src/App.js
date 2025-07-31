@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Slideshow from './components/Slideshow';
 import Productos from './components/Productos';
 import Footer from './components/Footer';
+import Presentacion from './components/Presentacion';
 import './pages/styles/global.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Navbar />
         <Slideshow />
+        <Presentacion />
         
         <Routes>
           <Route path="/" element={<Productos />} />

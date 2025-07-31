@@ -92,9 +92,9 @@ function Navbar() {
               ) : (
                 <>
                   <li className="nav-item">
-                    <Button variant="link" onClick={() => setShowLogin(true)}>
+                    <Link className="nav-link" onClick={() => setShowLogin(true)}>
                       <i className="fas fa-sign-in-alt mr-1"></i> Iniciar Sesión
-                    </Button>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <Button variant="primary" onClick={() => setShowRegister(true)}>

@@ -1,0 +1,50 @@
+.about-section {
+  padding: 3rem 1rem;
+  position: relative;
+}
+
+.about-content {
+  padding: 6rem 4rem;
+  background-color: #deaf83;
+  position: relative;
+  margin-left: 50px;
+  width: 60%;
+}
+
+.about-title {
+  text-align: left;
+  color: #333;
+  font-size: 3.5rem;
+}
+
+.about-subtitle {
+  text-align: left;
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+.about-description {
+  padding-right: 6rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+
+.about-image {
+  padding: 3rem 1rem;
+  background-color: white;
+  position: relative;
+  margin: 50px;
+}
+
+.about-logo {
+    position: center;
+    padding: 6rem 4rem;
+}
+
+.about-container {
+    display: flex;
+}
