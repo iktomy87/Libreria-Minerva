@@ -63,7 +63,6 @@ function Productos() {
                     className="product-image"
                   />
                 )}
-                <button className="quick-view-btn">Vista rápida</button>
               </div>
               <div className="product-info">
                 <h3 className="product-author">{producto.autor}</h3>
@@ -75,6 +74,8 @@ function Productos() {
         ))}
       </Swiper>
     </div>
+    
+    
   );
 }
 

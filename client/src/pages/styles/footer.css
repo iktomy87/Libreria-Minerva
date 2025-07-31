@@ -1,0 +1,102 @@
+/* Estilos generales del footer */
+.footer-container {
+  background-color: #f8f5f0;
+  color: #333;
+  padding: 40px 20px 20px;
+  font-family: 'Georgia', serif;
+}
+
+.footer-content {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #222;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #deaf83;
+}
+
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.footer-icon {
+  margin-right: 15px;
+  color: #deaf83;
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+/* Sección del mapa */
+.footer-map-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.map-title {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.map-locations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.map-location {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Copyright */
+.footer-copyright {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .map-locations {
+    justify-content: center;
+  }
+}

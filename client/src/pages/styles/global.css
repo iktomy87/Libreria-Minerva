@@ -290,12 +290,6 @@ body {
   justify-content: center;
 }
 
-/* ============= FOOTER ============= */
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background-color: white;
-}
 
 /* ============= RESPONSIVE ============= */
 @media (max-width: 768px) {
