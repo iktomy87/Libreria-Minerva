@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block page_titulo %}
+    <h2>Productos disponibles</h2>
+{% endblock page_titulo %}
+
+{% block page_content %}
+    <div class="productos">
+        {% if productos %}
+            <div class="producto-list">
+                {% for producto in productos %}
+                    <div class="producto-item">
+                        <img src="{{ producto.imagen.url }}" alt="{{ producto.nombre }}" class="producto-img">
+                        <h3>{{ producto.nombre }}</h3>
+                        <p>Precio: ${{ producto.precio }}</p>
+                        <p>{{ producto.descripcion }}</p>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <input type="hidden" name="producto" value="{{ producto.id }}">
+                            <button type="submit">Agregar al carrito</button>
+                        </form>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No hay productos disponibles.</p>
+        {% endif %}
+    </div>
+
+{% endblock page_content %}
